@@ -1,0 +1,25 @@
+print ("<JaiHea8080>")
+name = input("Please enter your name: ")
+student_id = input("Please enter your Student ID: ")
+
+num1 = int(input("Please enter a whole number: "))
+num2 = int(input("Please enter a different second whole number: "))
+
+multiplication = num1 * num2
+division = num1 / num2
+addition = num1 + num2
+
+print(f"The result of {10} times {5} is: {multiplication:.2f}")
+print(f"The result of {10} divided by {5} is: {division:.2f}")
+print(f"The result of {10} plus {5} is: {addition:.2f}")
+
+if num1 > num2:
+    print(f"Number 1 is larger than Number 2")
+elif num2 > num1:
+    print(f"Number 2 is larger than Number 1")
+else:
+    print("Both numbers are equal")
+
+print("<Jaiden>")
+print("<JaiHea8080>")
+    
